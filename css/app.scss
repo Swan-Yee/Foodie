@@ -9,8 +9,8 @@ $font-family: 'Montserrat','Padauk', sans-serif;
 
 // custom css
 .header{
-    background-color: #ffffffb5;
-    backdrop-filter: blur(15px) contrast(130%);
+    background-color: #ffffff;
+    backdrop-filter: blur(100px) contrast(100%);
     z-index: 2001;
 }
 
@@ -23,4 +23,9 @@ $font-family: 'Montserrat','Padauk', sans-serif;
     width: 65px;
     height: 65px;
     fill: var(--bs-primary);
+}
+
+.scroll-to-top{
+    bottom: 50px;
+    right: 50px;
 }

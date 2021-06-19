@@ -7492,7 +7492,7 @@ fieldset:disabled .btn {
 }
 
 .w-25 {
-  width: 25% !important;
+  width: 40% !important;
 }
 
 .w-50 {
@@ -11467,9 +11467,9 @@ fieldset:disabled .btn {
 }
 
 .header {
-  background-color: #ffffffb5;
-  -webkit-backdrop-filter: blur(15px) contrast(130%);
-          backdrop-filter: blur(15px) contrast(130%);
+  background-color: #ffffff;
+  -webkit-backdrop-filter: blur(100px) contrast(100%);
+          backdrop-filter: blur(100px) contrast(100%);
   z-index: 2001;
 }
 
@@ -11482,5 +11482,10 @@ fieldset:disabled .btn {
   width: 65px;
   height: 65px;
   fill: var(--bs-primary);
+}
+
+.scroll-to-top {
+  bottom: 50px;
+  right: 50px;
 }
 /*# sourceMappingURL=app.css.map */
